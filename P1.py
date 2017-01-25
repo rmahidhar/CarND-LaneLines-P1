@@ -356,9 +356,9 @@ def process_video_file(input, output):
     white_clip.write_videofile(output_file, audio=False)
 
 def main():
-    #process_test_images()
-    #process_video_file("solidWhiteRight.mp4", "white.mp4")
-    #process_video_file("solidYellowLeft.mp4", "yellow.mp4")
+    process_test_images()
+    process_video_file("solidWhiteRight.mp4", "white.mp4")
+    process_video_file("solidYellowLeft.mp4", "yellow.mp4")
     process_video_file("challenge.mp4", "extra.mp4")
 
 if __name__ == "__main__":
